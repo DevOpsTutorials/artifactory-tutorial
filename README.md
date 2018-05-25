@@ -20,7 +20,7 @@ Click on `New`. Pick `Generic` for `Select Package Type`.
 
 Enter `bootcamp` as `Repository Key`. Click `Save & Finish` to create the new repository.
 
-## Upload a file
+## Upload/Download files
 
 On the main menu on the right pane, click on `Artifacts`.
 
@@ -47,8 +47,10 @@ A file could be uploaded also using the REST API support provided by Artifactory
 $ curl -vi -u admin:password -X PUT  http://34.212.154.26:8081/artifactory/bootcamp/first/2018-02-10.csv -T ~/Downloads/2018-02-10.csv
 ```
 
+Type of repositories and local caching.
 
+Artifacts replication between Artifactory instances.
 
-
+Artifactory maintenance.
 
 
