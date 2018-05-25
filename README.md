@@ -47,6 +47,8 @@ A file could be uploaded also using the REST API support provided by Artifactory
 $ curl -vi -u admin:password -X PUT  http://34.212.154.26:8081/artifactory/bootcamp/first/2018-02-10.csv -T ~/Downloads/2018-02-10.csv
 ```
 
+## Other important topics
+
 Type of repositories and local caching.
 
 Artifacts replication between Artifactory instances.
