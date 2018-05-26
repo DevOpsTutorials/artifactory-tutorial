@@ -10,22 +10,22 @@ $ sudo -i
 # service artifactory start
 ```
 
-Check the Artifactory UI on the browser at `http://IP-ADDRESS:8081`, and, login as `admin` with password `password`.
+Check the Artifactory UI on the browser at `http://IP-ADDRESS:8081`, and skip out of the modal and click Login on the navbar. Login as `admin` with password `password`.
 
 ## Setup a repository
 
-Navigate `Admin` -> `Repositories` -> `Local`.
+Navigate `Admin` (left nav bar, lowest link/icon) -> `Repositories` -> `Local`.
 
-Click on `New`. Pick `Generic` for `Select Package Type`.
+Click on `New` (top-right). Pick `Generic` for `Select Package Type`.
 
 Enter `bootcamp` as `Repository Key`. Click `Save & Finish` to create the new repository.
 
 ## Upload/Download files
 
-On the main menu on the right pane, click on `Artifacts`.
+On the main menu on the left pane (below Home), click on `Artifacts`.
 
-Click `Deploy` on the top-right. 
-- From the pop-up dialog for uploading select a file from your laptop. 
+Click `Deploy` on the top-right.
+- From the pop-up dialog for uploading select a file from your laptop.
 - Select `Target Repository` as `bootcamp`.
 - Enter a relative path to the repo in `Target Path`. Multi-level directories are supported, for example try `first/second/YOUR-FILENAME`.
 - Click `Deploy`. This uploads the local file to the specified target path in the repo `bootcamp`.
